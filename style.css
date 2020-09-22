@@ -8,7 +8,8 @@
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
 #lezioni .row>.right {
-/*  width: 50%;*/
+
+  /*width: 50%;*/
   float: left;
 }
 
@@ -43,7 +44,7 @@
 #why .row>.first,
 #why .row>.second,
 #why .row>.third {
-  /*width: 100%; */
+  width: 100%;
   margin-top: 80px;
 }
 
@@ -72,73 +73,33 @@ img {
   clear: both;
 }
 
-/*@media screen and (max-width:420px) {
-      .left{
-         display: inline-block;
-          max-width: 400px;
-          text-align: center;
-
-   }
-
-}
-
-
-@media screen and (max-width:420px) {
-      .right{
-         display: inline-block;
-            width: 400px;
-          text-align: center;
-
-   }
-
-}
-*/
-
 
 
 
 @media screen and (max-width:420px) {
      .row{
-        width: 420px;
-     }
+        width: 100%;;
+ }
+
+img{
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+
 }
 
 
-
-
-
-
-
-@media screen and (max-width:420px) {
-      .left.right{
+.left.right{
          display: inline-block;
-           width: 400px;
+           width: 100%;
 
-   }
-
-}
+ }
 
 
 @media screen and (max-width:420px) {
       .central{
          display: inline-block;
-           width: 400px;
+           width: 100%;
 
-   }
-
-}
-
-
-
-
-
-
-
-@media screen and (max-width:420px) {
-      .first .central .right{
-         display: inline-block;
-           width: 400px;
-
-   }
 
 }
